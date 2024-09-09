@@ -1,14 +1,19 @@
-Run with:
+To run this program, use the following command:
 
-`python main.py *frequency* *difficulty* *game_mode*`  
+```python
+python main.py <frequency> <difficulty> <game_mode>
+```
 
-`frequency` is how often a new chord appears (10 is resonable)
+Here's a brief explanation of each parameter:
 
-`difficulty` is how diffucult the chords would be (between 1 and 5)
+- `<frequency>`: Determines how frequently a new chord appears. Suggested value is around 10.
+- `<difficulty>`: Defines the complexity of the chords. It should be a number between 1 (easiest) and 5 (most difficult).
+- `<game_mode>`: Dictates the way the chord is displayed, with each mode represented by a different code.
 
-`game_mode` affects how the chord would be displayed where:
-    `all` is 0,
-    `only chord` is 1,
-    `delayed chord` is 2,
-    `only name` is 3,
-    `delayed name` is 4;
+Here are the game modes and corresponding codes:
+
+- `0` - `all`: Default display mode.
+- `1` - `only chord`: Displays only the chord.
+- `2` - `delayed chord`: Shows the chord after a delay.
+- `3` - `only name`: Displays only the chord name.
+- `4` - `delayed name`: Shows the chord name after a delay.

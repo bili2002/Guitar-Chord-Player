@@ -12,8 +12,8 @@ Here's a brief explanation of each parameter:
 
 Here are the game modes and corresponding codes:
 
-- `0` - `all`: Default display mode.
-- `1` - `only chord`: Displays only the chord.
-- `2` - `delayed chord`: Shows the chord after a delay.
-- `3` - `only name`: Displays only the chord name.
-- `4` - `delayed name`: Shows the chord name after a delay.
+- `0`: Default display mode.
+- `1`: Displays only the chord.
+- `2`: Shows the chord after a delay.
+- `3`: Displays only the chord name.
+- `4`: Shows the chord name after a delay.

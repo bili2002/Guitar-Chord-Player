@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chord Display</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="content">
+            <h1>Chord Display</h1>
+
+            <label for="frequency">Frequency: </label><span id="freq-value"></span>
+            <input id="frequency" type="range" min="1" max="19" value="10"><br>
+
+            <label for="difficulty">Difficulty: </label><span id="diff-value"></span>
+            <input id="difficulty" type="range" min="1" max="5" value="3"><br>
+
+            <label for="mode">Mode: </label>
+            <span id="mode-value">All</span>
+            <input id="mode" type="range" min="0" max="4" value="0" step="1"><br>
+
+            <button id="start">Start</button>
+
+            <h3 id="chordName"></h3>
+            <pre id="chordDiagram"></pre>
+        </div>
+
+        <script src="constants.js"></script>
+        <script src="script.js"></script>
+        <script src="slider.js"></script>
+    </body>
+</html>
